@@ -1,12 +1,39 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <title>movie project</title>
-</head>
-<body>
+  </head>
+  <body>
+    <header class="hero">
+      <div class="title">
+        <h1 class="title-infor">Find your film</h1>
+        <p class="watchlist">My Watchlist</p>
+      </div>
+
+      <div class="search-bar">
+        <div class="input-wrapper">
+            <img src="./Search (1).svg" alt="search-icon" class="icon">
+            <input type="text" placeholder="Search for a movie" id="search-input" />
+        </div>
+        <button id="search-btn">Search</button>
+      </div>
+    </header>
+
+    <main id="movie-container">
+      <div class="empty">
+        <img src="./Icon.svg" alt="movie-image">
+        <p>Start exploring</p>
+      </div>
+    </main>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
