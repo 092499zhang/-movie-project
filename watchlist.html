@@ -10,34 +10,25 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
-    <title>movie project</title>
+    <title>watchlist</title>
   </head>
   <body>
     <header class="hero">
       <div class="title">
-        <a class="title-infor" href="./index.html">Find your film</a>
-        <a class="watchlist" href="./watchlist.html">My Watchlist</a>
-      </div>
-
-      <div class="search-bar">
-        <div class="input-wrapper">
-          <img src="./Search (1).svg" alt="search-icon" class="icon" />
-          <input
-            type="text"
-            placeholder="Search for a movie"
-            id="search-input"
-          />
-        </div>
-        <button id="search-btn">Search</button>
+        <a class="title-infor" href="./watchlist.html">My Watchlist</a>
+        <a class="watchlist" href="./index.html">Find your film</a>
       </div>
     </header>
 
     <main id="movie-container">
       <div class="empty">
-        <img src="./Icon.svg" alt="movie-image" />
-        <p>Start exploring</p>
+        <p>Your watchlist is looking a little empty...</p>
+        <div class="add-movie">
+            <img src="./Icon (2).svg" alt="plus">
+            <a href="./index.html">Let’s add some movies!</a>
+        </div>
       </div>
     </main>
-    <script src="./script.js"></script>
+<script src="./watchlist.js"></script>
   </body>
 </html>
